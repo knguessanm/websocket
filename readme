@@ -1,0 +1,22 @@
+Etablir une connexion websocket de base(serveur-client)
+***
+
+Dans notre cas, nous allons utiliser Go pour le serveur WebSocket
+et HTML/JavaScript pour le client.
+
+N.B: Pour se faire, nous allons utiliser le package gorilla/websocket.
+Pour l'installer, utilisez la commande suivante :
+#go get github.com/gorilla/websocket
+
+1/créer d'abord le go mod , on écrit dans le terminal go mod init + le nom du dossier, ici c'est websocket
+
+
+2/créer un fichier pour créer le coté serveur, avec les ports
+  a) ajouter ce lien dans le terminel, dans le fichier serveur ; go get github.com/gorilla/websocket, pour gérer les dépendances
+  
+
+
+3/ créer un fichier HTML
+
+4/ 
+ lancer le projet il faut écrire dans le terminal : ( pour go run . )puis faire entrer il va s'afficher dans le terminal : Server started at :8080
